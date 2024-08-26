@@ -21,7 +21,7 @@ def grafic_size():
             main_window.left.grid(column=0,row=0,sticky="nsew")
             main_window.window.minsize(900,500)
             if operaciones.vacio:
-                grafic_frame.actualice_grafic(operaciones.y_values,operaciones.x_values)
+                grafic_frame.actualice_grafic(operaciones.y_values,operaciones.x_values,operaciones.Z)
             else:
                 y =[0]* 200
                 Z = np.zeros_like(y)
@@ -33,7 +33,7 @@ def grafic_size():
             main_window.window.minsize(900,500)
             main_window.window.minsize(1250,500)
             if operaciones.vacio == True:
-                grafic_frame.actualice_grafic(operaciones.y_values,operaciones.x_values)
+                grafic_frame.actualice_grafic(operaciones.y_values,operaciones.x_values,operaciones.Z)
             else:
                 y =[None]* 100
                 Z = np.zeros_like(y)

@@ -4,6 +4,7 @@ from model import autentication
 def login():
     
     global name
+    global error
 
     window = tk.Tk()
     window.title("Calculadora Grafica")
@@ -14,6 +15,7 @@ def login():
     window.rowconfigure(0,weight=1)
     window.rowconfigure(1,weight=1)
     window.rowconfigure(2,weight=1)
+    window.rowconfigure(3,weight=1)
     
 
     ttk.Label(window, text="Username:").grid(row=0, column=0, sticky="ew")
@@ -27,6 +29,9 @@ def login():
     
     
     ttk.Button(window, text="Ingreso",command=lambda:autentication.autentication(usuario.get(),paswword.get(),window)).grid(row=2, column=0, columnspan=2, pady=10)
+
+    error = ttk.Label(window)
+    error.grid(row=3, column=0,sticky="ew",columnspan=2)
 
     window.mainloop()
     

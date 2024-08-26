@@ -18,7 +18,9 @@ def autentication(username,password,window):
                 window.destroy()
                 login.name = username
                 value = True
-                return value
+                return value   
+    if value == False:
+        login.error.config(text="Los datos no coninciden")
     return value
                    
 

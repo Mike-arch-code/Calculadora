@@ -13,7 +13,7 @@ def add_user(username,password,password2,window):
     
     for row in matrix:
         if row[0] == username:
-            break
+            return register.error.config(text="El nombre de usuario ya esta en uso")
         else:
             add = True
             
@@ -23,7 +23,8 @@ def add_user(username,password,password2,window):
             class_firebase_database.write_record("/Usuarios/"+ username +"/Historial/0/", "Nuevo usuario" )
             window.destroy()
             register.add_active = True
-            
+    else:
+        return register.error.config(text="Las contraseñas no coinciden")
                    
 
 

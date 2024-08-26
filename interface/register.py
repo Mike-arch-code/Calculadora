@@ -6,7 +6,7 @@ add_active = False
 
 def register():
 
-    
+    global error
     global add_active
 
     window = tk.Tk()
@@ -19,6 +19,7 @@ def register():
     window.rowconfigure(1,weight=1)
     window.rowconfigure(2,weight=1)
     window.rowconfigure(3,weight=1)
+    window.rowconfigure(4,weight=1)
     
 
     ttk.Label(window, text="Username:").grid(row=0, column=0, sticky="ew")
@@ -37,6 +38,8 @@ def register():
     
     ttk.Button(window, text="Register",command=lambda:add_usser.add_user(usuario.get(),paswword.get(),paswword2.get(),window)).grid(row=3, column=0, columnspan=2, pady=10)
     
+    error = ttk.Label(window)
+    error.grid(row=4, column=0,sticky="ew",columnspan=2)
 
     window.mainloop()
     

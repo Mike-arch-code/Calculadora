@@ -5,20 +5,11 @@ from interface import solution_view
 import numpy as np
 import sympy as sp
 import re
-
-from interface import input_bar
-from interface import grafic_frame
 from model import size_window
-from interface import solution_view
-import numpy as np
-import sympy as sp
-import re
-import tkinter as tk
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+
 
 vacio = False
+mode_3D = 0
 
 graficas = 0
 
@@ -29,6 +20,7 @@ def operaction():
     global graficas
     vacio = True
     global Z
+    global mode_3D
     
     operation = input_bar.text_bar.get().strip()
     
@@ -42,6 +34,7 @@ def operaction():
     
     operation = re.sub(r'(\d)([xy])', r'\1*\2', operation)
     operation = re.sub(r'([xy])(\d)', r'\1*\2', operation)
+    operation = re.sub(r'√\(([^)]+)\)', r'(\1)**(1/2)', operation)
     
     x = sp.Symbol('x')
     y = sp.Symbol('y')
@@ -65,6 +58,7 @@ def operaction():
     X, Y = np.meshgrid(x_values, y_values)
     
     if 'y' in str(expr.free_symbols):
+        
         Z = np.zeros(X.shape)
         threshold = 40
         for i in range(X.shape[0]):
@@ -80,7 +74,9 @@ def operaction():
                 except Exception as e:
                     solution_view.label.configure(text="Syntax Error")
                     Z[i, j] = np.nan
-        grafic_frame.actualice_grafic(X, Y,Z)
+        mode_3D = mode_3D + 1
+        if size_window.grafic:
+            grafic_frame.actualice_grafic(X, Y,Z)
         
     else:
         i = 0
@@ -104,8 +100,8 @@ def operaction():
             i += 1
         
         Z = np.zeros_like(x_values)
-            
-        grafic_frame.actualice_grafic(y_values, x_values,Z)
+        if size_window.grafic:
+            grafic_frame.actualice_grafic(y_values, x_values,Z)
 
 def format_float(num):
     formatted_str = "{:.15g}".format(num)
