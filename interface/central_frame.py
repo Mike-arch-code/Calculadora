@@ -5,7 +5,7 @@ from interface import input_bar
 from interface import keyboard
 from interface import solution_view
 
-def frame_central(container,a):
+def frame_central(container):
 
     window = ttk.Frame(container,borderwidth=1,relief='solid')
 
@@ -15,7 +15,7 @@ def frame_central(container,a):
     window.rowconfigure(2,weight=1)
     window.rowconfigure(3,weight=5)
 
-    expant = expand_buttons.expand_buttons(window,a)
+    expant = expand_buttons.expand_buttons(window)
     expant.grid(column=0,row=0,sticky="nsew")
 
     tex_bar = input_bar.input_bar(window)

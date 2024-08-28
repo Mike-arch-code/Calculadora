@@ -3,9 +3,7 @@ from tkinter import ttk
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from interface import input_bar
-from mpl_toolkits.mplot3d import Axes3D
 from model import operaciones
-import numpy as np
 varibles_y = []
 varibles_x = []
 varibles_z = []
@@ -15,13 +13,6 @@ var3d = []
 def grafic(container):
     global window
     window = ttk.Frame(container, borderwidth=1, relief='solid')
-    window.grid(row=0, column=0, sticky='nsew')
-    window.columnconfigure(0,weight=1)
-    container.grid_rowconfigure(0, weight=1)
-    container.grid_columnconfigure(0, weight=1)
-    window.rowconfigure(1,minsize=10)
-    
-
     return window
 
 def actualice_grafic(y,x,z):

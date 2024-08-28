@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import TclError, ttk
 from model import autentication
+from model import volver
+
 def login():
     
     global name
@@ -28,7 +30,8 @@ def login():
     paswword.grid(row=1, column=1, sticky="ew")
     
     
-    ttk.Button(window, text="Ingreso",command=lambda:autentication.autentication(usuario.get(),paswword.get(),window)).grid(row=2, column=0, columnspan=2, pady=10)
+    ttk.Button(window, text="Ingreso",command=lambda:autentication.autentication(usuario.get(),paswword.get(),window)).grid(row=2, column=1, pady=10)
+    ttk.Button(window, text="Volver",command=lambda :volver.volver()).grid(row=2, column=0, pady=10)
 
     error = ttk.Label(window)
     error.grid(row=3, column=0,sticky="ew",columnspan=2)

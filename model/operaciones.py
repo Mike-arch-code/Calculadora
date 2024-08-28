@@ -1,16 +1,13 @@
 from interface import input_bar
 from interface import grafic_frame
-from model import size_window
 from interface import solution_view
 import numpy as np
 import sympy as sp
 import re
-from model import size_window
-
 
 vacio = False
 mode_3D = 0
-
+value_pass = True
 graficas = 0
 
 def operaction():
@@ -20,6 +17,11 @@ def operaction():
     global graficas
     global Z
     global mode_3D
+    global value_pass
+    
+    value_pass = True
+
+    vacio = True
     
     operation = input_bar.text_bar.get().strip()
     
@@ -35,6 +37,15 @@ def operaction():
     operation = re.sub(r'([xy])(\d)', r'\1*\2', operation)
     operation = re.sub(r'√\(([^)]+)\)', r'(\1)**(1/2)', operation)
     
+    funciones_permitidas = ["sin", "cos", "tan", "log"]
+    palabras = re.findall(r'[a-zA-Z_]\w*', operation)
+    
+    for palabra in palabras:
+        if palabra not in funciones_permitidas and palabra not in ["x", "y"]:
+            solution_view.label.configure(text="Syntax Error")
+            value_pass = False
+            return
+    
     x = sp.Symbol('x')
     y = sp.Symbol('y')
     
@@ -49,73 +60,61 @@ def operaction():
     x_values = np.linspace(-100, 100, 4000)
     y_values = []
     Z = np.zeros((len(x_values), 1))
-    threshold = 40
+    threshold = 10
     
     
-    x_values = np.linspace(-20, 20, 100)
-    y_values = np.linspace(-20, 20, 100)
+    x_values = np.linspace(-20, 20, 150)
+    y_values = np.linspace(-20, 20, 150)
     X, Y = np.meshgrid(x_values, y_values)
 
-    abecedario = [letra for letra in 'abcdefghijklmnoprstuvwxyz' if letra not in ['x', 'y']]
-    for letra in abecedario:
-        if letra in operation:
-            vacio = False
-            solution_view.label.configure(text="Syntax Error")
-            graficas = graficas-1
-            break
-        else:
-            vacio = True
-    if vacio: 
-        if 'y' in str(expr.free_symbols):
-            if "x" in operation:
-                Z = np.zeros(X.shape)
-                threshold = 40
-                for i in range(X.shape[0]):
-                    for j in range(X.shape[1]):
-                        x_valu = X[i, j]
-                        y_valu = Y[i, j]
-                        try:
-                            result = expr.subs({x: x_valu, y: y_valu}).evalf()
-                            if result.is_real and abs(result) <= threshold:
-                                Z[i, j] = float(result)
-                            else:
-                                Z[i, j] = np.nan
-                        except Exception as e:
-                            solution_view.label.configure(text="Syntax Error")
+    
+    if 'y' in str(expr.free_symbols):
+        if "x" in operation:
+            Z = np.zeros(X.shape)
+            for i in range(X.shape[0]):
+                for j in range(X.shape[1]):
+                    x_valu = X[i, j]
+                    y_valu = Y[i, j]
+                    try:
+                        result = expr.subs({x: x_valu, y: y_valu}).evalf()
+                        if result.is_real and abs(result) <= threshold:
+                            Z[i, j] = float(result)
+                        else:
                             Z[i, j] = np.nan
-                mode_3D = mode_3D + 1
-                if size_window.grafic:
-                    solution_view.label.configure(text="")
-                    grafic_frame.actualice_grafic(X, Y,Z)
-            else:
-                graficas = graficas-1
-                return solution_view.label.configure(text="Syntax Error")
-                
-            
+                    except Exception as e:
+                        solution_view.label.configure(text="Syntax Error")
+                        Z[i, j] = np.nan
+            mode_3D = mode_3D + 1
+            solution_view.label.configure(text="")
+            grafic_frame.actualice_grafic(X, Y,Z)
         else:
-            i = 0
-            for x_val in x_values:
-                try:
-                    result = expr.subs(x, x_val).evalf()
-                    if not "x" in operation:
-                        formatted_num = format_float(result)
-                        solution_view.label.config(text=formatted_num)
-                    else:
-                        solution_view.label.config(text="")
-                    
-                    if result.is_real and abs(result) <= threshold:
-                        y_values[i] = float(result)
-                    else:
-                        y_values[i] = np.nan
-                    
-                except Exception as e:
-                    solution_view.label.configure(text="Syntax Error")
-                    y_values[i] = np.nan
-                i += 1
+            graficas = graficas-1
+            return solution_view.label.configure(text="Syntax Error")
             
-            Z = np.zeros_like(x_values)
-            if size_window.grafic:
-                grafic_frame.actualice_grafic(y_values, x_values,Z)
+        
+    else:
+        i = 0
+        for x_val in x_values:
+            try:
+                result = expr.subs(x, x_val).evalf()
+                if not "x" in operation:
+                    formatted_num = format_float(result)
+                    solution_view.label.config(text=formatted_num)
+                else:
+                    solution_view.label.config(text="")
+                
+                if result.is_real and abs(result) <= threshold:
+                    y_values[i] = float(result)
+                else:
+                    y_values[i] = np.nan
+                
+            except Exception as e:
+                solution_view.label.configure(text="Syntax Error")
+                y_values[i] = np.nan
+            i += 1
+        
+        Z = np.zeros_like(x_values)
+        grafic_frame.actualice_grafic(y_values, x_values,Z)
 
 def format_float(num):
     formatted_str = "{:.15g}".format(num)

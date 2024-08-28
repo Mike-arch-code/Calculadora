@@ -1,7 +1,12 @@
 import tkinter as tk
 from tkinter import TclError, ttk
 from model import ingreso
+
+ingresos = 0
+
 def log():
+    
+    global ingresos
 
     window = tk.Tk()
     window.title("Calculadora Grafica")
@@ -12,7 +17,8 @@ def log():
     window.rowconfigure(1,weight=1)
     window.rowconfigure(2,weight=1)
     
-
+    ingresos = 0
+    
     login_button = ttk.Button(window,text="Login",command=lambda:ingreso.ingreso(1,window))
     login_button.grid(row=0, column=0, sticky="nsew")
 
@@ -23,5 +29,4 @@ def log():
     offline_button.grid(row=2, column=0, sticky="nsew")
 
     window.mainloop()
-    
-    return ingreso.x
+    return ingresos 

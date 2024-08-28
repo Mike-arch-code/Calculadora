@@ -4,6 +4,9 @@ from tkinter import TclError
 from model import operaciones
 from model import save
 from interface import historial_frame
+from interface import internet
+from control import controller
+from interface import history_offline
 
 def write(text_bar,character):
 
@@ -19,10 +22,19 @@ def DEL(text_bar):
 
 
 def ENTER(a):
-    if not a:
-        save.save()
-    historial_frame.conten_historial = True
+    
     operaciones.operaction()
+    if operaciones.value_pass:
+        try:
+            if controller.offoline:
+                history_offline.conten_historial = True
+                save.save_offline()
+            else:
+                save.save()
+                historial_frame.conten_historial = True
+        except:
+            internet.internet()
+    
 
 def historial(contenido):
     input_bar.text_bar.delete(0, tk.END)

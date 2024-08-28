@@ -1,7 +1,5 @@
-
-x = 0
+from interface import window_log
 
 def ingreso(a,window):
-    global x
-    x = a
+    window_log.ingresos = a
     window.destroy()

@@ -4,22 +4,25 @@ from interface import window_log
 from interface import login
 from interface import register
 
+base_active = False
 
 def controller_aplication():
     global offoline
     offoline = False
     
-    opcion = window_log.log()
+    global base_active
     
+    opcion = window_log.log()
+
     if opcion == 1:
         class_firebase_database.init()
         offoline = False
         autentication = login.login()
         if autentication:
-            window = main_window.create_main_window(offoline)
-            window.mainloop()
+            main_window.create_main_window()
     elif opcion == 2:
         class_firebase_database.init()
+        base_active = True
         offoline = False
         registro = True
         if registro:
@@ -27,13 +30,11 @@ def controller_aplication():
             if value:
                 autentication = login.login()
                 if autentication:
-                    window = main_window.create_main_window(offoline)
-                    window.mainloop()
+                    main_window.create_main_window()
             
     elif opcion == 3:
         offoline = True
-        window = main_window.create_main_window(offoline)
-        window.mainloop()
+        main_window.create_main_window()
     
     
     
