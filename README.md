@@ -274,19 +274,19 @@ Aquí se define la función “delete\_record()” que elimina los datos en una 
 
 - **basic**
 
-  ![ref1]
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.018.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.018.png)
 
   **Figura 18**
 
   En esta función, se solicita como parámetro la variable “container”, que actuará como el contenedor principal. Dentro de este contenedor, se crea un “frame”, el cual servirá como el espacio donde se generarán los botones de la calculadora. La variable “style” se encarga de definir el estilo visual de los botones, como la fuente y el tamaño del texto.**(Figura 18)**
 
-  ![ref2]
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.019.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.019.png)
 
   ***Figura 19***
 
   Posteriormente se configuran las filas y las columnas del frame creado a través del método “frame.columnconfigure” y “frame.rowconfigure”, distribuyendolas en 4 columnas y 6 filas que dentro de sus atributos tienen un peso (weight) igual a 1, lo que permite que todos los botones se distribuyan uniformemente.**(Figura 19)**
 
-  ![ref3]
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.020.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.020.png)
 
   ***Figura 20***
 
