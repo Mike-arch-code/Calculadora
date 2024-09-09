@@ -127,7 +127,7 @@ Se pueden instalar estas bibliotecas utilizando el siguiente comando en la conso
 
 `	`Ejemplo:
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.001.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.001.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.001.png)
 ***Figura 1***
 1. # <a name="_dlvt4ubawk0x"></a>Herramientas Utilizadas para el Desarrollo
 - Visual Studio Code para la implementación del código
@@ -137,18 +137,18 @@ Se pueden instalar estas bibliotecas utilizando el siguiente comando en la conso
 - Ir al repositorio de github en el siguiente link: <https://github.com/Mike-arch-code/Calculadora> 
 - Dar click en el botón verde “<> Code” y seleccionar “Download ZIP”
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.002.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.002.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.002.png)
   ***Figura 2***
 
 - Dirigirse a la ubicación donde se descargó el archivo y descomprimir la carpeta.
   1. ## <a name="_nf2d5b3sunxa"></a>Ejecutar el archivo principal
-- Una vez que las dependencias estén instaladas, puedes ejecutar la aplicación abriendo Visual Studio Code y seleccionar la carpeta descomprimida, luego seleccionar el archivo main.py y ejecutarlo en la consola.![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.003.png)***Figura 3***
+- Una vez que las dependencias estén instaladas, puedes ejecutar la aplicación abriendo Visual Studio Code y seleccionar la carpeta descomprimida, luego seleccionar el archivo main.py y ejecutarlo en la consola.![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.003.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.003.png)***Figura 3***
 1. # <a name="_pn6uvsymqh9l"></a>Configuración
 - No existe una configuración general; la aplicación está preconfigurada y los comandos están diseñados de manera intuitiva para que tanto usuarios como programadores puedan manejar el sistema con facilidad.
 1. # <a name="_segjckbl2v5z"></a>Análisis de código
 - **Archivo para ejecutar: “Main”**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.004.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.004.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.004.png)
 
   ***Figura 4***
 
@@ -157,7 +157,7 @@ Se pueden instalar estas bibliotecas utilizando el siguiente comando en la conso
 - **Paquete: “control” (Inicio de sesión)**
   - **Controller**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.005.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.005.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.005.png)
 
 ***Figura 5***
 
@@ -177,31 +177,31 @@ Aquí se importan varios módulos esenciales para la aplicación desde los módu
 
 - **controller\_aplication:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.006.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.006.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.006.png)
 
   ***Figura 6***
 
   Aquí se define la función principal “controller\_aplication()”.  Se inicializa la variable global “offoline” en False, indicando que la aplicación está en línea por defecto y se nombra la variable “base\_active” como global.**(Figura 6)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.007.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.007.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.007.png)
 
   ***Figura 7***
 
   La variable opción llama a la función “log” del archivo “window\_log” que se encuentra en el módulo “Interface” y se captura la opción seleccionada por el usuario (1: Iniciar sesión, 2: Registrarse, 3: Modo offline).**(Figura 7)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.008.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.008.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.008.png)
 
   ***Figura 8***
 
   Aquí se maneja la opción de iniciar sesión. Si el usuario selecciona la opción 1, se inicializa la base de datos y se autentica el nombre de usuario y contraseña. Si la autenticación es exitosa, se crea la ventana principal.**(Figura 8)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.009.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.009.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.009.png)
 
   ***Figura 9***
 
   Esta es la opción de registrarse. Si el usuario selecciona la opción 2, se inicializa la base de datos, se marca “offoline” como False y se procede al registro de un nuevo usuario. Si el registro es exitoso, se intenta autenticar al usuario y, de ser exitoso, se crea la ventana principal.**(Figura 9)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.010.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.010.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.010.png)
 
   ***Figura 10***
 
@@ -210,7 +210,7 @@ Aquí se importan varios módulos esenciales para la aplicación desde los módu
 - **Paquete: “data\_base” (Historial)**
   - **class\_firebase\_database**
 
-    ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.011.png)
+    ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.011.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.011.png)
 
 `		`***Figura 11***
 
@@ -225,31 +225,31 @@ Aquí se importan los módulos necesarios para trabajar con Firebase en Python:
 
 - **init:**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.012.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.012.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.012.png)
 
 ***Figura 12***
 
 Aquí se define la función “init()” que inicializa la aplicación de Firebase. Se cargan las credenciales desde un archivo JSON (ubicado en key\\credenciales.json) y se inicializa la aplicación con la URL de la base de datos en tiempo real de Firebase.**(Figura 12)**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.013.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.013.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.013.png)
 
 ***Figura 13***
 
 Aquí se define la función “write\_record()” que escribe datos en una ruta específica de la base de datos. Se crea una referencia a la ruta dada (path) y luego se utiliza el método “set()” para almacenar los datos proporcionados en (data).**(Figura 13)**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.014.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.014.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.014.png)
 
 ***Figura 14***
 
 Aquí se define la función “read\_record()” que lee y retorna los datos de una ruta específica en la base de datos. Se crea una referencia a la ruta dada (path) y se utiliza el método “get()” para obtener los datos almacenados en esa ubicación.**(Figura 14)**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.015.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.015.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.015.png)
 
 ***Figura 15***
 
 Aquí se define la función “update\_record()” que actualiza datos en una ruta específica de la base de datos. Se crea una referencia a la ruta dada (path) y se utiliza el método “update()” para modificar los datos existentes con los nuevos valores proporcionados (data).**(Figura 15)**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.016.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.016.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.016.png)
 
 ***Figura 16***
 
@@ -258,7 +258,7 @@ Aquí se define la función “delete\_record()” que elimina los datos en una 
 - **Paquete: “Interface”**
   - **basic\_butons**
 
-    ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.017.png)
+    ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.017.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.017.png)
 
     ***Figura 17***
 
@@ -294,7 +294,7 @@ Aquí se define la función “delete\_record()” que elimina los datos en una 
 
 - **central\_frame**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.021.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.021.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.021.png)
 
   ***Figura 21***
 
@@ -314,7 +314,7 @@ Aquí se define la función “delete\_record()” que elimina los datos en una 
 
 - **frame\_central**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.022.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.022.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.022.png)
 
 ***Figura 22***
 
@@ -323,7 +323,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **crete\_button**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.023.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.023.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.023.png)
 
   ***Figura  23***
 
@@ -343,19 +343,19 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **create\_button**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.024.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.024.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.024.png)
 
   ***Figura 24 (Parte 1)***
 
   Esta función crea un botón y define su estilo, como la fuente, la tipografía, y el tamaño del texto.**(Figura 24)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.025.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.025.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.025.png)
 
   ***Figura 25 (Parte 2)***
 
   Posteriormente, mediante una función “lambda”, se define el comportamiento del botón, es decir, qué texto o acción se enviará a la barra de entrada de texto al hacer clic en él.**(Figura 25)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.026.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.026.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.026.png)
 
   ***Figura 26 (Parte 3)***
 
@@ -363,19 +363,19 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **create\_button\_DELL:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.027.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.027.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.027.png)
 
   ***Figura 27 (Parte 1)***
 
   Esta función se utiliza para crear un botón de borrado de texto y se establece su estilo, como la fuente, la tipografía, y el tamaño del texto.**(Figura 27)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.028.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.028.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.028.png)
 
   ***Figura 28 (Parte 2)***
 
   Por medio de una función “lambda” se establece el comportamiento del botón, el cual es borrar carácter por carácter lo que aparece en la barra de texto.**(Figura 28)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.029.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.029.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.029.png)
 
   ***Figura 29 (Parte 3)***
 
@@ -383,19 +383,19 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **create\_button\_ANS**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.030.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.030.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.030.png)
 
   ***Figura 30 (Parte 1)***
 
   Esta función se utiliza para crear un botón que calcula y muestra el resultado de la operación dada. En esta parte, se define su estilo, incluyendo la fuente, la tipografía y el tamaño del texto.**(Figura 30)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.031.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.031.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.031.png)
 
   ***Figura 31 (Parte 2)***
 
   A través de una función “lambda” se establece el comportamiento del botón, el cual es realizar todo el cálculo de la operación matemática ingresada en la barra de texto.**(Figura 31)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.032.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.032.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.032.png)
 
   ***Figura 32 (Parte 3)***
 
@@ -403,7 +403,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **expand\_buttons**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.033.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.033.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.033.png)
 
   ***Figura 33***
 
@@ -419,13 +419,13 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **expand\_buttons**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.034.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.034.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.034.png)
 
   ***Figura 34***
 
   Esta función se encarga de crear los botones de Gráfica e Historial los cuales modifican el tamaño de la pantalla, en primer lugar se establece la tipografía, tamaño y disposición en la cuadrícula.**(Figura 34)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.035.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.035.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.035.png)
 
   ***Figura 35***
 
@@ -433,7 +433,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **grafic\_frame**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.036.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.036.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.036.png)
 
   ***Figura 36***
 
@@ -450,7 +450,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **grafic**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.037.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.037.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.037.png)
 
   ***Figura 37***
 
@@ -458,7 +458,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **actualice\_grafic**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.038.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.038.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.038.png)
 
   ***Figura 38***
 
@@ -472,19 +472,19 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **dibujo**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.039.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.039.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.039.png)
 
   ***Figura 39***
 
   Esta es una función anidada dentro de “actualice\_grafic”. Es la responsable de dibujar el gráfico y se ejecuta inmediatamente después de actualizar las listas de variables, si el modo 3D está activado “operaciones.mode\_3D”, se genera un gráfico tridimensional con los ejes X, Y y Z. Se configura el gráfico con límites para los tres ejes y se traza cada gráfico en sus respectivas coordenadas, además el gráfico se dibuja en un “FigureCanvasTkAgg”, que se coloca en la interfaz de Tkinter. Luego, se añade una barra de herramientas interactiva (con zoom, guardar imagen, etc.) a través de “NavigationToolbar2Tk”.**(Figura 39)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.040.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.040.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.040.png)
 
   ***Figura 40***
 
   Finalmente se realiza un bucle for para generar un botón que corresponde a la leyenda de cada gráfico. Estos botones permiten borrar gráficos específicos.**(Figura 40)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.041.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.041.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.041.png)
 
   ***Figura 41***
 
@@ -492,14 +492,14 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **borrar\_grafica**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.042.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.042.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.042.png)
 
   ***Figura 42***
   Esta es otra función dentro de “actualice\_grafic” que sirve para eliminar un gráfico específico cuando el usuario hace clic en el botón correspondiente. Se eliminan los valores de las listas y se vuelve a dibujar el gráfico.**(Figura 42)**
 
 - **historial\_frame**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.043.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.043.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.043.png)
 
   ***Figura 43***
 
@@ -519,13 +519,13 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **historial**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.044.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.044.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.044.png)
 
   ***Figura 44***
 
   Esta función se encarga de crear y mostrar la interfaz de usuario para gestionar el historial de operaciones de un usuario en la calculadora. En primer lugar se crea el Frame donde se mostrará la interfaz, se establece el estilo y disposición para luego evaluar si en la base de datos en la ruta donde se encuentran las operaciones guardadas, existe algún elemento, si no lo hay se imprime en la pantalla “No hay historial”.**(Figura 44)**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.045.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.045.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.045.png)
 
   ***Figura 45***
 
@@ -533,7 +533,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.046.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.046.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.046.png)
 
   ***Figura 46***
 
@@ -541,7 +541,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **actualice\_historial**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.047.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.047.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.047.png)
 
   ***Figura 47***
 
@@ -552,7 +552,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **history\_offline**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.048.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.048.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.048.png)
 
   ***Figura 48***
 
@@ -570,7 +570,7 @@ En esta función “frame\_central()” se crea un marco central en una GUI con 
 
 - **historial**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.049.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.049.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.049.png)
 
 `	`***Figura 49***
 
@@ -578,7 +578,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **actualice\_historial**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.050.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.050.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.050.png)
 
   ***Figura 50***
 
@@ -586,7 +586,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **subir\_historial**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.051.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.051.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.051.png)
 
   ***Figura 51***
 
@@ -594,7 +594,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **input\_bar**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.052.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.052.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.052.png)
 
   ***Figura 52***
 
@@ -615,7 +615,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **input\_bar**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.053.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.053.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.053.png)
 
   ***Figura 53***
 
@@ -629,7 +629,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **internet**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.054.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.054.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.054.png)
 
   ***Figura 54***
 
@@ -645,7 +645,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **internet**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.055.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.055.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.055.png)
 
 **Figura 55**
 
@@ -653,7 +653,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **Keyboard**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.056.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.056.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.056.png)
 
   ***Figura 56***
 
@@ -671,7 +671,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **create\_keyboard**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.057.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.057.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.057.png)
 
 **Figura 57**
 
@@ -683,7 +683,7 @@ Esta función configura una interfaz gráfica para mostrar el historial de opera
 
 - **login**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.058.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.058.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.058.png)
 
 **Figura 57**
 
@@ -695,7 +695,7 @@ Este código se encarga de crear una ventana de inicio de sesión que permite al
 
 - **create\_main\_window**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.059.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.059.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.059.png)
 
 **Figura 58**
 
@@ -706,7 +706,7 @@ Este código se encarga de crear una ventana de inicio de sesión que permite al
 
 - **register**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.060.png)**Figura 59**
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.060.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.060.png)**Figura 59**
 
 - Este código crea una ventana de registro con campos de texto para el nombre de usuario y la contraseña, así como botones para registrar y volver.(Figura 59)
 
@@ -716,7 +716,7 @@ Este código se encarga de crear una ventana de inicio de sesión que permite al
 
 - **create\_answer\_frame**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.061.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.061.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.061.png)
 
 **Figura 60**
 
@@ -728,7 +728,7 @@ Este código se encarga de crear una ventana de inicio de sesión que permite al
 
 - **basic**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.062.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.062.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.062.png)
 
 **Figura 61**
 
@@ -740,7 +740,7 @@ Este código se encarga de crear una ventana de inicio de sesión que permite al
 
 - **log**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.063.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.063.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.063.png)
 
 **Figura 62**
 
@@ -749,7 +749,7 @@ Este código se encarga de crear una ventana de inicio de sesión que permite al
 - **Paquete: “Model”**
 - **Add\_usser**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.064.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.064.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.064.png)
 
 **Figura 63**
 
@@ -764,7 +764,7 @@ Aquí se importan los módulos:
 
 - **Add\_user**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.065.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.065.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.065.png)
 
 **Figura 64**
 
@@ -772,7 +772,7 @@ Aquí se importan los módulos:
 
 - **Autentication**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.066.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.066.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.066.png)
 
 **Figura 65**
 
@@ -789,14 +789,14 @@ Aquí se importan los módulos:
 
 - **autenticación**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.067.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.067.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.067.png)
 
 **Figura 66**
 
 - Se inicia una variable value en False, indicando que la autenticación aún no ha tenido éxito. Se recorre cada usuario en la lista, si el nombre de usuario coincide, se verifica la contraseña, si la contraseña coincide, se cierra la ventana, se guarda el nombre del usuario autenticado y se establece value en True, indicando éxito en la autenticación, luego la funcion abre el archivo local historial.txt para subir el historial almacenado localmente. En caso de que   ningún usuario coincide, o si las credenciales no son correctas, se muestra un mensaje de error indicando que los datos no coinciden.(Figura 66)
 - **Clear\_historial**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.068.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.068.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.068.png)
 
 **Figura 67**
 
@@ -813,14 +813,14 @@ Aquí se importan los módulos:
 
 - **Clear**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.069.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.069.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.069.png)
 
 **Figura 68**
 
 - Se carga el historial del usuario autenticado desde Firebase, Se elimina el elemento del historial en la posición x, Se vuelve a calcular la longitud del historial, se recorre el historial y se vuelve a escribir en la base de datos, ajustando los índices, Se elimina el último registro de la base de datos para reflejar la eliminación, Se actualiza el historial de la interfaz gráfica.(Figura 68)
 - **Clear\_historial\_item**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.070.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.070.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.070.png)
 
 **Figura 69**
 
@@ -828,7 +828,7 @@ Aquí se importan los módulos:
 
 - **Close actions**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.071.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.071.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.071.png)
 
 **Figura 70**
 
@@ -842,7 +842,7 @@ Aquí se importan los módulos:
 
 - **delete\_historial**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.072.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.072.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.072.png)
 
 **Figura 71**
 
@@ -852,7 +852,7 @@ Aquí se importan los módulos:
 
 - **Ingreso**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.073.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.073.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.073.png)
 
 **Figura 72**
 
@@ -866,7 +866,7 @@ Aquí se importan los módulos:
 
 - **Ingreso**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.074.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.074.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.074.png)
 
 **Figura 73**
 
@@ -876,7 +876,7 @@ Aquí se importan los módulos:
 
 - **Input\_bar\_funtions**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.075.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.075.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.075.png)
 
 **Figura 74**
 
@@ -898,7 +898,7 @@ Aquí se importan los módulos:
 
 - **Ingreso**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.076.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.076.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.076.png)
 
 **Figura 75**
 
@@ -910,7 +910,7 @@ Aquí se importan los módulos:
 
 - **Operaciones**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.077.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.077.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.077.png)
 
 **Figura 76**
 
@@ -931,15 +931,15 @@ Aquí se importan los módulos:
 
 - **operaction**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.078.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.078.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.078.png)
 
 **Figura 77**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.079.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.079.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.079.png)
 
 **Figura 78**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.080.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.080.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.080.png)
 
 **Figura 79**
 
@@ -947,7 +947,7 @@ Aquí se importan los módulos:
 - La función format\_float recibe un número flotante y lo formatea eliminando ceros innecesarios y el punto decimal si no es necesario, devolviendo una representación más limpia del número para mostrarlo en la interfaz gráfica.(Figura 77-79)
 - **Save**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.081.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.081.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.081.png)
 
 **Figura 80**
 
@@ -966,21 +966,21 @@ Aquí se importan los módulos:
 
 - **save**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.082.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.082.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.082.png)
 
 **Figura 81**
 
 - La función save guarda el contenido que se encuentra en la barra de entrada de texto en el historial del usuario autenticado.(Figura 81)
 - **save\_offline**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.083.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.083.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.083.png)
 
 `	`**Figura 82**
 
 - La función save\_offline guarda una nueva entrada en un archivo de texto local cuando la aplicación está sin conexión a internet.(Figura 82)
 - **save\_offline\_to\_online**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.084.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.084.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.084.png)
 
 **Figura 83**
 
@@ -990,7 +990,7 @@ Aquí se importan los módulos:
 
 - **Size window**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.085.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.085.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.085.png)
 
 **Figura 84**
 
@@ -1008,14 +1008,14 @@ Aquí se importan los módulos:
 - **grafic\_size**
 
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.086.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.086.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.086.png)
 
 **Figura 85**
 
 - La función grafic\_size ajusta el tamaño y la disposición de la ventana principal en función de si el panel de gráficos (grafic) y el panel de historial (historial) están activos o no. En dado caso de que se active alguno de los dos se expande la columna (Figura 85)
 - **hitorial\_size**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.087.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.087.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.087.png)
 
 **Figura 86**
 
@@ -1024,7 +1024,7 @@ Aquí se importan los módulos:
 
 - **Volver**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.088.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.088.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.088.png)
 
 **Figura 87**
 
@@ -1039,7 +1039,7 @@ Aquí se importan los módulos:
 
 - **Volver**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.089.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.089.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.089.png)
 
 **Figura 88**
 
@@ -1115,7 +1115,7 @@ Aquí se importan los módulos:
 
 1. # <a name="_nsppaj8lv9mr"></a>Diseño de la arquitectura
    1. ## <a name="_5sfana5lpq0u"></a>Diagramas de casos de uso
-      ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.090.png)
+      ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.090.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.090.png)
 
 **Figura 89**
 1. ### <a name="_vvued0u27by"></a>Casos de Uso
@@ -1177,91 +1177,91 @@ Aquí se importan los módulos:
    1. ## <a name="_loanqzz4lt1z"></a>Diagramas de Estado
 - Usuario:
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.091.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.091.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.091.png)
 
 **Figura 90**
 
 - Calculadora:
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.092.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.092.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.092.png)
 
 **Figura 91**
 1. ## <a name="_q285n5ys6kzy"></a>Diagramas de Secuencia
 - Iniciar Sesión:
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.093.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.093.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.093.png)
 
 **Figura 92**
 
 - Hacer cálculo básico:
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.094.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.094.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.094.png)
 
 **Figura 93**
 
 - Cerrar sesión:
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.095.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.095.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.095.png)
 
 **Figura 94**
 1. # <a name="_q4nsde3se8u4"></a>Tecnologías Asociadas
 - Base de Datos: Para almacenar las operaciones y los usuarios, se utilizó RealTime DataBase de FireBase para que los datos sean dinámicos en tiempo real.
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.096.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.096.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.096.png)
 
 **Figura 95**
 1. # <a name="_y8hsqz7vtts9"></a>Prototipo entregado
 - **Ventana Log:**
 
-![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.097.png)
+![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.097.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.097.png)
 
 **Figura 96**
 
 - **Login:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.098.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.098.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.098.png)
 
 **Figura 97**
 
 - **Registro:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.099.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.099.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.099.png)
 
 **Figura 98**
 
 - **Subir Historial:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.100.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.100.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.100.png)
 
 **Figura 99**
 
 - **Calculadora:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.101.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.101.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.101.png)
 
 **Figura 100**
 
 - **Calculadora (Teclas de funciones (sin)):**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.102.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.102.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.102.png)
 
 **Figura 101**
 
 - **Gráfica 2D:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.103.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.103.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.103.png)
 
 **Figura 102**
 
 - **Gráfica 3D:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.104.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.104.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.104.png)
 
 **Figura 103**
 
 - **Historial:**
 
-  ![](Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.105.png)
+  ![Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.105.png](Imagenes_readme/Aspose.Words.dab877ff-b609-4893-8111-7177ed5182da.105.png)
 
 **Figura 104**
 1. # <a name="_2yr7ui5hdazh"></a>Conclusiones
