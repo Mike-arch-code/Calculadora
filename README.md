@@ -4,36 +4,29 @@ Calculadora gráfica
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 PRESENTADO POR:
 HECTOR MILLER PATIÑO
+
 SANTIAGO BARBOSA
+
 MAYCOL FIGUEROA
+
 MIGUEL TOVAR
+
 MATERIA:
+
 Programación de computadores
 
 PROFESOR:
+
 Nestor German Bolivar Pulgarin
 
 UNIVERSIDAD NACIONAL DE COLOMBIA
+
 FACULTAD DE INGENIERÍA- ELECTRÓNICA
+
 BOGOTA 2024
+
 Contenido
 
 
