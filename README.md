@@ -59,25 +59,41 @@ Contenido
 11. Conclusiones	62
 
 Objetivos
+
 El objetivo de este manual es explicar el funcionamiento de la calculadora gráfica de funciones, todo su código, su forma de uso y dar un breve recorrido sobre todo el proceso de creación del proyecto.
 Alcance
+
 El siguiente documento va dirigido a programadores, con conocimientos básicos de programación en python, programación orientada a objetos y bases de datos.
 Requerimientos Técnicos Software y Hardware
+
 Antes de instalar y utilizar la aplicación, asegúrate de que tu sistema cumpla con los siguientes requisitos:
 Sistema Operativo: Windows, macOS, Linux
+
 Versión de Python: Python 3 en adelante
+
 Librerías necesarias:
+
 “tkinter” para la interfaz gráfica.
+
 “matplotlib” para graficar funciones en 2D.
+
 “numpy” para cálculos matemáticos avanzados.
+
 “sympy” para manipulación simbólica.
+
 “mpl_toolkits.mplot3d” para graficar funciones en 3D.
+
 “firebase-admin” para la integración con Firebase.
+
 Se pueden instalar estas bibliotecas utilizando el siguiente comando en la consola cmd:
+
 pip install (nombre de las librerías mencionadas en el ítem anterior)
+
 	Ejemplo:
 
-Figura 1
+![image](https://github.com/user-attachments/assets/2d8dce84-c2ce-4caf-81e4-2509a72afd89)
+
+
 Herramientas Utilizadas para el Desarrollo
 Visual Studio Code para la implementación del código
 Gestor de bases de datos: Firebase para la administración de los datos almacenados.
